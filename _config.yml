@@ -2,6 +2,7 @@ theme: minima
 
 github_username:  davidtavarez
 linkedin_username: davidtavarez
+twitter_username:  davidtavarez
 
 minima:
   date_format: "%b %-d, %Y"
