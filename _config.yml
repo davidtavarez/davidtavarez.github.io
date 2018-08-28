@@ -13,10 +13,8 @@ title: Software, Privacy, Security, Code and Fun!
 author: davidtavarez
 email: david@punksec.com
 description: > 
-  I'm a security and privacy freak, Linux lover and a pentester enthusiast. I like to be
-  challenged and my focus is to be as productive as I can. I code since I was a kid and I'm a better
-  baller than a coder, at least that I want to believe. I'm highly entrepreneurial and efficient at
-  building and maintaining high quality software.
+  Security and privacy freak, Linux user and a Pentester enthusiast. I code since I was a kid and I'm a better
+  baller than a coder, at least that I want to believe.
   
 plugins:
  - jekyll-feed
