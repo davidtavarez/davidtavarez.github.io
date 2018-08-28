@@ -4,8 +4,6 @@ twitter_username: davidtavarez
 github_username:  davidtavarez
 linkedin_username: davidtavarez
 
-rss: rss
-
 minima:
   date_format: "%b %-d, %Y"
 
