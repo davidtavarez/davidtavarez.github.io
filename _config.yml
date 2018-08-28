@@ -17,4 +17,4 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  
-show_excerpts: false
+show_excerpts: true
