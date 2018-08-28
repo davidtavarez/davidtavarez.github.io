@@ -9,7 +9,7 @@ rss: rss
 minima:
   date_format: "%b %-d, %Y"
 
-title: David Tavarez
+title: Software, Privacy, Security, Code and Fun!
 author: davidtavarez
 email: david@punksec.com
 description: > 
