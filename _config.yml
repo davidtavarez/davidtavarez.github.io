@@ -2,9 +2,9 @@ remote_theme: fongandrew/hydeout
 markdown: kramdown
 highlighter: rouge
 
-title:  "I'm David"
-tagline: "A Jekyll theme"
-url: https://fongandrew.github.io
+title: "I'm David"
+tagline: "Coding for fun and profit!"
+url: https://davidtavarez.github.io/
 description: "Software engineer, Security and privacy freak and a Pentester enthusiast. I've been coding since I was a kid and I'm a better baller than a developer."
 
 author:
