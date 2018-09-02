@@ -1,20 +1,23 @@
+# Dependencies
 remote_theme: fongandrew/hydeout
+markdown: kramdown
+highlighter: rouge
 
-github_username:  davidtavarez
-linkedin_username: davidtavarez
-twitter_username:  davidtavarez
+# Setup
+title:            I'm David
+tagline:          'A Jekyll theme'
+url:              https://fongandrew.github.io
+description: 'Software engineer, Security and privacy freak and a Pentester enthusiast. I've been coding since I was a kid and I'm a better baller than a developer.'
 
-minima:
-  date_format: "%b %-d, %Y"
+author:
+  name: 'David Tavarez'
+  url: https://twitter.com/davidtavarez
 
-title: David Tavarez
-author: davidtavarez
-email: david@punksec.com
-description: > 
-  Security and privacy freak, Linux user and a Pentester enthusiast. I've been coding since I was a kid and I'm a better baller than a coder, at least I want to believe that.
-  
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-gist
+ - jekyll-paginate
  
+paginate:         5
 show_excerpts: true
