@@ -1,9 +1,5 @@
-# Dependencies
 remote_theme: fongandrew/hydeout
-markdown: kramdown
-highlighter: rouge
 
-# Setup
 title:  'I\'m David'
 tagline: 'A Jekyll theme'
 url: https://fongandrew.github.io
