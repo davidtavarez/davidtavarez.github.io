@@ -1,10 +1,11 @@
-markdown: "kramdown"
-highlighter: "rouge"
+remote_theme: fongandrew/hydeout
+markdown: kramdown
+highlighter: rouge
 
 title:  "I'm David"
 tagline: "A Jekyll theme"
 url: https://fongandrew.github.io
-description: 'Software engineer, Security and privacy freak and a Pentester enthusiast. I've been coding since I was a kid and I'm a better baller than a developer.'
+description: "Software engineer, Security and privacy freak and a Pentester enthusiast. I've been coding since I was a kid and I'm a better baller than a developer.""
 
 author:
   name: "David Tavarez"
@@ -16,7 +17,5 @@ plugins:
  - jekyll-gist
  - jekyll-paginate
  
-paginate:         5
+paginate: 5
 show_excerpts: true
-
-remote_theme: "fongandrew/hydeout"
