@@ -1,4 +1,5 @@
-remote_theme: fongandrew/hydeout
+markdown: kramdown
+highlighter: rouge
 
 title:  'I\'m David'
 tagline: 'A Jekyll theme'
@@ -17,3 +18,5 @@ plugins:
  
 paginate:         5
 show_excerpts: true
+
+remote_theme: fongandrew/hydeout
