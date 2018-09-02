@@ -11,6 +11,6 @@ permalink: /projects/
 
 ![Pinky v2][pinky-screenshot]
 
-[pinky-screenshot]: https://github.com/davidtavarez/pinky/raw/master/screenshots/pinkyV2_connected.png
+[pinky-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/pinky_connected.png
 
 [pinky-page]: https://davidtavarez.github.io/pinky/
