@@ -2,7 +2,12 @@
 layout: post
 title:  "Why a GitHub Page?"
 date:   2018-08-27 21:30:00 -0400
-categories: personal opinion
+categories:
+  - Opinion
+tags:
+  - content
+  - opinion
+  - blog
 ---
 
 I'm pretty sure that there are good options out there such as Medium, Wordpress and LinkedIn, but I feel like the GitHub pages are more personal, it's like to code without coding because you can just open your favorite text editor like Vim, IntelliJ or Visual Code (like me) and start typing.
