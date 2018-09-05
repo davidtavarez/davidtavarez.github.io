@@ -5,7 +5,9 @@ sidebar_link: true
 permalink: /about/
 ---
 
-![me](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/avatar.png "David Tavarez") I'm **David Tavarez**, rather I prefer people call me by my first name "**David**". Since I've been coding since I was 12 years old, people usually think that I am a geek or something but I'm not, it's just I like to learn as much as I can how things are done and how I can improve them.
+<img src="https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/avatar.png" width="260")
+
+I'm **David Tavarez**, rather I prefer people call me by my first name "**David**". Since I've been coding since I was 12 years old, people usually think that I am a geek or something but I'm not, it's just I like to learn as much as I can how things are done and how I can improve them.
 
 When I was 15 I was doing web applications and I was in love of this cute girl in my class, so I decided to hack the local newsletter webpage and post a news saying that I loved her. It was really easy, the user and password was just there visible by everyone but she thought I was smart and cute. Since then I was aware of how important is Security.
 
