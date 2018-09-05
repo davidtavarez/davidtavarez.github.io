@@ -4,7 +4,7 @@ title: About
 sidebar_link: true
 permalink: /about/
 ---
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/avatar.png" width="260" alt="David's avatar"/></div>
+<p align="center"><img src="https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/avatar.png" width="260" alt="David's avatar"/></p>
 
 I'm **David Tavarez**, rather I prefer people call me by my first name "**David**". Since I've been coding since I was 12 years old, people usually think that I am a geek or something but I'm not, it's just I like to learn as much as I can how things are done and how I can improve them.
 
