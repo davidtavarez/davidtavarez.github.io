@@ -8,7 +8,7 @@ permalink: /about/
 
 I'm **David Tavarez**, but I prefer people to call me just "**David**". I've been coding since I was 12 years old and people usually think that I am a geek or something but I'm not, it's just I like to learn how things are done and how much I can improve them as much as I can.
 
-When I was 15 I was doing web applications and I was in love of this cute girl in my class, so I decided to hack the local newsletter webpage and add an article saying that I loved her. It was really easy, the user and password werejust there visible by everyone but she thought I was smart and cute. Since then I was aware of how important is Security.
+When I was 15 I was doing web applications and I was in love of this cute girl in my class, so I decided to hack the local newsletter webpage and add an article saying that I loved her. It was really easy, the user and password were just there visible by everyone but she thought I was smart and cute. Since then I was aware of how important is Security.
 
 Now, I help business to achieve their goals through Software. I'm really passionate about Community and Technology, I'm an Open Source advocate since I meet Mandrake 8. I'm not really tight to a programming language, since I can code in **Python**, **C#**, **PHP**, **Java**, **Javascript** and **C**.
 
