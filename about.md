@@ -16,6 +16,6 @@ When I'm not writing code, you can find me playing basketball, traveling with fr
 
 Need more information about me? Follow me at [@davidtavarez](https://twitter.com/davidtavarez), read my Resume at [LinkedIn](https://www.linkedin.com/in/davidtavarez) and   don't forget to see my repositories on [GitHub](https://github.com/davidtavarez).
 
-Want to chat? I'd love to hear from you. You can use [this key](https://github.com/davidtavarez/davidtavarez.github.io/blob/master/DavidTavarezEDCCD61EPublic.asc) to encrypt and secure our messages. To start using it, you'll need to install an **OpenPGP** software on your computer. Please import the public key into your local OpenPGP Key-Manager. Looking forward to exchange snooping-free messages with you.
+Want to chat? I'd love to hear from you, write me at david [at] punksec . com, remember you can use [this key](https://github.com/davidtavarez/davidtavarez.github.io/blob/master/DavidTavarezEDCCD61EPublic.asc) to encrypt and secure our messages. To start using it, you'll need to install an **OpenPGP** software on your computer. Please import the public key into your local OpenPGP Key-Manager. Looking forward to exchange snooping-free messages with you.
 
 Regards.
