@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Encrypting documents and pictures using Python"
+title:  "Encrypting files using Python"
 date:   2018-09-04 19:50:00 -0400
 categories:
   - Code
@@ -10,9 +10,9 @@ tags:
   - security
 ---
 
-We all need to keep our files safe; no matter what you do for living, some people says that everybody has secrets. It's countless how many times friends and family approached me when they just bought (or "found") a new laptop or hard drive and they need to format everything and reinstall the operative system. In a more serous example, as as social and political activist, I've being witness on how the State chase the social activist, burst in their houses and steal all electronic devices. This is a matter of concern because the State tend to use anything to put pressure on activist or even prosecute them.
+We all need to keep our files safe; no matter what you do for living, some people say that everybody has secrets. It's countless how many times friends and family approached me when they just bought (or "found") a new laptop or hard drive and they need to format everything and reinstall the operative system. In a more serious example, as a social and political activist, I've witnessed how the State chases the social activists, burst in their houses and steal all electronic devices. This is a matter of concern because the State tends to use anything to put pressure on activists or even prosecute them.
 
-I don't want to wait until we finally built a perfect world; at the meantime I want to be prepared, so I try to do my job and keep my privacy safe. I found some code out there and I did add some more to use it as a command line scrypt to encryp and decrypt files.
+I don't want to wait until we finally build a perfect world; in the meantime I want to be prepared, so I try to do my job and keep my privacy safe. I found some code out there and I added some more to use it as a command line scrypt to encryp and decrypt files.
 
 ### Let's do it! ###
 
@@ -20,7 +20,7 @@ First of all, please install the requirement:
 
 `$ pip install pycrypto`
 
-After that we, you can get the scrypt from my [gists](https://gist.github.com/davidtavarez/3ab6ab9ddd36dd501ed9e3c06c53210d).
+After that, you can get the scrypt from my [gists](https://gist.github.com/davidtavarez/3ab6ab9ddd36dd501ed9e3c06c53210d).
 
 ```
 $ chmod a+x safer.py
@@ -73,4 +73,4 @@ Now we should have the same files but without the extension `.encrypted`
 
 ### Final thoughs ###
 
-This is really basic encrypting and decrypting script written in Python. We should generate a better key with symbols, numbers and letters. Besides, we can compress the files into a zip files protected by password. Later, I will post something explaining how we can create cron jobs to run this little script automatically. If you want to modify the script to improve it, please, do it and send the revision to me.
+This is really a basic encrypting and decrypting script written in Python. We should generate a better key with symbols, numbers and letters. Besides, we can compress the files into a zip file protected by password. Later, I will post something explaining how we can create cron jobs to run this little script automatically. If you want to modify the script to improve it, please, do it and send me the revision.
