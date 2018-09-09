@@ -23,13 +23,13 @@ I was playing a little bit with my old Raspberry Pi and recently I bought a USB 
 
 You can see more about Re4son Kernel [here](https://re4son-kernel.com/re4son-pi-kernel/) and if you want to install Kali just watch [this video from NullByte](https://www.youtube.com/watch?v=5ExWmpFnAnE)
 
-### Let's begin! ###
+Let's begin!
 
-## System base: Raspbian Stretch Lite ##
+### System base: Raspbian Stretch Lite ###
 
 Like I said before, I'm using Raspbian Stretch Lite. For a while I'm noticing that I never use the Desktop Enviroment anymore, so I have installed the Lite version of Raspbian Stretch. If you want to give a try just go [here](https://www.raspberrypi.org/downloads/raspbian/) and follow the [Installation Guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
 
-## Re4son Kernel ##
+### Re4son Kernel ###
 
 My first attempt was to compile the driver over a fresh installation of Raspbian Stretch Lite (Linux kernel 4.14.50+), but although I did compile the drivers and the device was installed, I was not able to get authenticated into any Access Point. If you are also at this point, *Re4son Kernel* is the solution. Installing this kernel is easy:
 
@@ -45,7 +45,7 @@ $ sudo su
 
 Now, you should be able to see `wlan1` with `ifconfig`.
 
-## RTL8814AU ##
+### RTL8814AU ###
 
 Now we need install our drivers. This repo from the **aircrack-ng** team works pretty good, and the installation is also really easy:
 
@@ -60,7 +60,7 @@ $ sudo reboot
 
 Adding `RTL8814=1 ARCH=arm` is crucial, becuase without the `make` command will to find the linux headers for `armv7l` and it won't find them.
 
-## Bonus: Connecting to WPA/WP2 network from the terminal ##
+### Bonus: Connecting to WPA/WP2 network from the terminal ###
 
 With a fresh installation of Raspbian Stretch Lite we don't have a Desktop Enviroment. I created a small bash script to connect to a Access Point, but first we need to generate the config a save it to a file:
 
