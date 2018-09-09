@@ -117,7 +117,6 @@ wlan1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         RX errors 0  dropped 6  overruns 0  frame 0
         TX packets 428  bytes 68216 (66.6 KiB)
         TX errors 0  dropped 13 overruns 0  carrier 0  collisions 0
-```
 pi@raspberrypi:~ $ ping -c4 bing.com
 PING bing.com (204.79.197.200) 56(84) bytes of data.
 64 bytes from a-0001.a-msedge.net (204.79.197.200): icmp_seq=1 ttl=113 time=72.3 ms
