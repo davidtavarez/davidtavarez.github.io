@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up the Alfa AWUS1900 Wi-fi adapter in Raspberry Pi (Re4son Kernel)"
+title:  "Setting up the Alfa AWUS1900 Wi-fi adapter on the Raspberry Pi with Re4son Kernel"
 date:   2018-09-09 12:03:00 -0400
 categories:
   - Tools
