@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up Alfa AWUS1900 in Raspberry Pi (Re4son Kernel)"
+title:  "Setting up the Alfa AWUS1900 Wi-fi adapter in Raspberry Pi (Re4son Kernel)"
 date:   2018-09-09 12:03:00 -0400
 categories:
   - Tools
@@ -12,7 +12,7 @@ tags:
   - re4son
 ---
 
-I was playing a little bit with my old Raspberry Pi and recently I bought a USB Wi-fi adapter, the Alfa AWUS1900 (the one with four antennas). So, I decided to setting up the Pi to test this Wi-fi adapter. I know that on Kali Linux we just have to run `# apt-get install realtek-rtl88xxau-dkms`, but on the Raspberry Pi is not that straight forward because we need to compile the drivers for the ARM chip. I must say that the last **Raspbian Stretch Lite** works just fine and better with the Re4son-Kernel. Some interesting Re4son "*current stable*" Kernel highlights are:
+I was playing a little bit with my old Raspberry Pi and recently I bought an USB Wi-fi adapter: the Alfa AWUS1900 (the one with four antennas). So, I decided to setting up my Pi for this Wi-fi adapter. I know that on Kali Linux we just have to run `# apt-get install realtek-rtl88xxau-dkms`, but for the Raspberry Pi is not that straight forward because we need to compile the drivers for the ARM chip. I must say that the last **Raspbian Stretch Lite** works really good and better with the *Re4son-Kernel*. Some interesting Re4son "*current stable*" Kernel highlights are:
 
 - Raspberry Pi 3 B+ support
 - Supports armel (Pi 1, Zero, Zero W) and armhf (Pi 2, 3)
@@ -27,11 +27,11 @@ Let's begin!
 
 ### System base: Raspbian Stretch Lite ###
 
-Like I said before, I'm using Raspbian Stretch Lite. For a while I'm noticing that I never use the Desktop Enviroment anymore, so I have installed the Lite version of Raspbian Stretch. If you want to give a try just go [here](https://www.raspberrypi.org/downloads/raspbian/) and follow the [Installation Guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
+Like I said before, I'm using *Raspbian Stretch Lite*. Since a time ago I'm noticing that I never use the Desktop Environment anymore, so I have installed the Lite version of Raspbian Stretch. If you want to download this version just [click here](https://www.raspberrypi.org/downloads/raspbian/) and follow the [Installation Guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
 
 ### Re4son Kernel ###
 
-My first attempt was to compile the driver over a fresh installation of Raspbian Stretch Lite (Linux kernel 4.14.50+), but although I did compile the drivers and the device was installed, I was not able to get authenticated into any Access Point. If you are also at this point, *Re4son Kernel* is the solution. Installing this kernel is easy:
+My first attempt was to compile the driver over a fresh installation, but although I did compile the drivers and the device was recognized, I was not able to get authenticated into any Access Point. If you are also at this point, *Re4son Kernel* is the solution. Installing this kernel is easy:
 
 ```
 $ sudo su
@@ -43,11 +43,16 @@ $ sudo su
 # reboot
 ```
 
-Now, you should be able to see `wlan1` with `ifconfig`.
+Let's confirm:
+
+```
+pi@raspberrypi:~ $ uname -a
+Linux raspberrypi 4.14.50-Re4son-v7+ #4 SMP Thu Jul 19 11:07:19 AEST 2018 armv7l GNU/Linux
+```
 
 ### RTL8814AU ###
 
-Now we need install our drivers. This repo from the **aircrack-ng** team works pretty good, and the installation is also really easy:
+Now we need install the drivers. This repository from the **aircrack-ng** team works pretty good, and the installation is also really easy:
 
 ```
 $ sudo apt install raspberrypi-kernel-headers bc
@@ -62,20 +67,20 @@ Adding `RTL8814=1 ARCH=arm` is crucial, becuase without the `make` command will 
 
 ### Bonus: Connecting to WPA/WP2 network from the terminal ###
 
-With a fresh installation of Raspbian Stretch Lite we don't have a Desktop Enviroment. I created a small bash script to connect to a Access Point, but first we need to generate the config a save it to a file:
+With a fresh installation of Raspbian Stretch Lite we don't have a Desktop Enviroment. I created a small bash script to connect to an Access Point, but first we need to generate the configuration an save it to a file:
 
 ```
 $ mkdir conf
 $ wpa_passphrase <ssid> [passphrase] > ./conf/[FILE].conf
 ```
 
-Alsa, I want to see the logs:
+Also, I want to see the logs:
 
 ```
 $ mkdir logs
 ```
 
-Now, save this script whereever you want as wifi_connect_SSID.sh:
+Now, save this script where ever you want as wifi_connect_SSID.sh:
 
 ```bash
 #!/bin/bash
@@ -91,7 +96,7 @@ sudo ifconfig $INTERFACE up
 sudo wpa_supplicant -i $INTERFACE -D nl80211 -c /home/pi/conf/[FILE].conf >  /home/pi/logs/wifi.logs.txt 2>&1 &
 ```
 
-Note: I have a config file for each ssid.
+Note: I have a configuration file for each ssid.
 
 ```
 $ chmod a+x wifi_connect_SSID.sh
@@ -105,7 +110,7 @@ $ ./wifi_connect_SSID.sh wlan1
 
 Change `wlan1` for your interface.
 
-If everything is done right you can have an IP and be able to navigate:
+If everything is done right we should have an IP address:
 
 ```
 pi@raspberrypi:~ $ ifconfig wlan1
@@ -129,3 +134,5 @@ PING bing.com (204.79.197.200) 56(84) bytes of data.
 rtt min/avg/max/mdev = 69.723/72.239/74.433/1.705 ms
 pi@raspberrypi:~ $
 ```
+
+That's all, too easy, right?
