@@ -12,7 +12,7 @@ tags:
   - re4son
 ---
 
-I was playing a little bit with my old Raspberry Pi and recently I bought an USB Wi-fi adapter: the Alfa AWUS1900 (the one with four antennas). So, I decided to setting up my Pi for this Wi-fi adapter. I know that on Kali Linux we just have to run `# apt-get install realtek-rtl88xxau-dkms`, but for the Raspberry Pi is not that straight forward because we need to compile the drivers for the ARM chip. I must say that the last **Raspbian Stretch Lite** works really good and better with the *Re4son-Kernel*. Some interesting Re4son "*current stable*" Kernel highlights are:
+I was playing a little bit with my old Raspberry Pi and recently bought an USB Wi-fi adapter: the Alfa AWUS1900 (the one with four antennas). So, I decided to set up my Pi for this Wi-fi adapter. I know that on Kali Linux we just have to run `# apt-get install realtek-rtl88xxau-dkms`, but for the Raspberry Pi is not that straight forward because we need to compile the drivers for the ARM chip. I must say that the last **Raspbian Stretch Lite** works really good and better with the *Re4son-Kernel*. Some interesting Re4son "*current stable*" Kernel highlights are:
 
 - Raspberry Pi 3 B+ support
 - Supports armel (Pi 1, Zero, Zero W) and armhf (Pi 2, 3)
@@ -27,11 +27,11 @@ Let's begin!
 
 ### System base: Raspbian Stretch Lite ###
 
-Like I said before, I'm using *Raspbian Stretch Lite*. Since a time ago I'm noticing that I never use the Desktop Environment anymore, so I have installed the Lite version of Raspbian Stretch. If you want to download this version just [click here](https://www.raspberrypi.org/downloads/raspbian/) and follow the [Installation Guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
+Like I said before, I'm using *Raspbian Stretch Lite*. For some time I've noticed that I never use the Desktop Environment anymore, so now I'm running the Lite version of Raspbian Stretch. If you want to download this version just [click here](https://www.raspberrypi.org/downloads/raspbian/) and follow the [Installation Guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
 
 ### Re4son Kernel ###
 
-My first attempt was to compile the driver over a fresh installation, but although I did compile the drivers and the device was recognized, I was not able to get authenticated into any Access Point. If you are also at this point, *Re4son Kernel* is the solution. Installing this kernel is easy:
+My first attempt was to compile the driver over a fresh installation but, although I did compile the drivers and the device was recognized, I was not able to get authenticated into any Access Point. If you are also at this point, *Re4son Kernel* is the solution. Installing this kernel is easy:
 
 ```
 $ sudo su
@@ -63,11 +63,11 @@ $ sudo make install RTL8814=1 ARCH=arm
 $ sudo reboot
 ```
 
-Adding `RTL8814=1 ARCH=arm` is crucial, becuase without the `make` command will to find the linux headers for `armv7l` and it won't find them.
+Adding `RTL8814=1 ARCH=arm` is crucial because without it the `make` command will not be able to find the linux headers for the `armv7l` and it won't compile.
 
 ### Bonus: Connecting to WPA/WP2 network from the terminal ###
 
-With a fresh installation of Raspbian Stretch Lite we don't have a Desktop Enviroment. I created a small bash script to connect to an Access Point, but first we need to generate the configuration an save it to a file:
+Because with a fresh installation of Raspbian Stretch Lite we don't have a Desktop Enviroment I created a small bash script to connect to an Access Point, but first we need to generate the configuration and save it to a file:
 
 ```
 $ mkdir conf
@@ -80,7 +80,7 @@ Also, I want to see the logs:
 $ mkdir logs
 ```
 
-Now, save this script where ever you want as wifi_connect_SSID.sh:
+Now, save this script whereever you want as `wifi_connect_SSID.sh`:
 
 ```bash
 #!/bin/bash
@@ -96,13 +96,13 @@ sudo ifconfig $INTERFACE up
 sudo wpa_supplicant -i $INTERFACE -D nl80211 -c /home/pi/conf/[FILE].conf >  /home/pi/logs/wifi.logs.txt 2>&1 &
 ```
 
-Note: I have a configuration file for each ssid.
+Note: I have a configuration file for each SSID.
 
 ```
 $ chmod a+x wifi_connect_SSID.sh
 ```
 
-And finally run the script as follow:
+And finally, run the script as follow:
 
 ```
 $ ./wifi_connect_SSID.sh wlan1
@@ -110,7 +110,7 @@ $ ./wifi_connect_SSID.sh wlan1
 
 Change `wlan1` for your interface.
 
-If everything is done right we should have an IP address:
+If we do this right then we should have an IP address:
 
 ```
 pi@raspberrypi:~ $ ifconfig wlan1
