@@ -13,7 +13,7 @@ permalink: /projects/
 
 # [Password Generator][passwords-page]
 
-**Strong Password Generator** Strong Password Generator to create secure passwords that are impossible to crack on your device without sending them across the Internet, and learn over 30 tricks to keep your passwords, accounts and documents safe.
+**Strong Password Generator** is a web based app to create secure passwords that are impossible to crack on your device without sending them across the Internet, and learn over 30 tricks to keep your passwords, accounts and documents safe.
 
 ![Password Generator][passwords-screenshot]
 
