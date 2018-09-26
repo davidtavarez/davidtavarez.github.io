@@ -15,7 +15,7 @@ permalink: /projects/
 
 **Strong Password Generator** Strong Password Generator to create secure passwords that are impossible to crack on your device without sending them across the Internet, and learn over 30 tricks to keep your passwords, accounts and documents safe.
 
-![Password Generator][pinky-screenshot]
+![Password Generator][passwords-screenshot]
 
 [pinky-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/pinky_connected.png
 [pinky-page]: https://davidtavarez.github.io/pinky/
