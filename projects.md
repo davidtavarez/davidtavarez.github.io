@@ -11,6 +11,14 @@ permalink: /projects/
 
 ![Pinky v2][pinky-screenshot]
 
-[pinky-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/pinky_connected.png
+# [Password Generator][passwords-page]
 
+**Strong Password Generator** Strong Password Generator to create secure passwords that are impossible to crack on your device without sending them across the Internet, and learn over 30 tricks to keep your passwords, accounts and documents safe.
+
+![Password Generator][pinky-screenshot]
+
+[pinky-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/pinky_connected.png
 [pinky-page]: https://davidtavarez.github.io/pinky/
+
+[passwords-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/passwords_random.png
+[passwords-page]: https://davidtavarez.github.io/passwords/
