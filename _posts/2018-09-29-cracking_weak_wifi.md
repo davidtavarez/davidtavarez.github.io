@@ -10,17 +10,17 @@ tags:
   - projects
 ---
 
-I must start saying: this **isn't a sophisticated** technique, this is just a simple use of **common sense**. I don't have Data plan on my mobile phone service, instead I have a portable WiFi router so I can do cool shit like share my internet connection to several devices using an [Anonabox](https://www.anonabox.com/). In order to acquire a SIM for this we must buy the mobile router to the ISP and I noticed somehting interesting: the WPA2-PSK is really easy to guess.
+I must start saying: this **isn't a sophisticated** technique, this is just a simple use of **common sense**. I don't have a Data plan on my mobile phone, instead I have a portable WiFi router so I can do cool stuff like share my internet connection to several devices using an [Anonabox](https://www.anonabox.com/). In order to acquire a SIM for this we must buy the mobile router to the ISP and I noticed something interesting: the WPA2-PSK is really easy to guess.
 
 ### What is WPA2-PSK? ###
 
 Short for **W**i-Fi **P**rotected **A**ccess **2** - **P**re-**S**hared **K**ey, and also called WPA or WPA2 Personal,  it is a method of securing your network using WPA2 with the use of the optional Pre-Shared Key (PSK) authentication, which was designed for home users without an enterprise authentication server.
 
-To encrypt a network with WPA2-PSK you provide your router not with an encryption key, but rather with a **plain-English passphrase between 8 and 63 characters long**. Using a technology called **TKIP** (for Temporal Key Integrity Protocol), that passphrase, along with the network SSID, is used to generate unique encryption keys for each wireless client. And those encryption keys are constantly changed. Although WEP also supports passphrases, it does so only as a way to more easily create static keys, which are usually comprised of the hex characters **0-9 and A-F**.
+To encrypt a network with WPA2-PSK you provide your router not with an encryption key, but with a **plain-English passphrase between 8 and 63 characters long**. Using a technology called **TKIP** (for Temporal Key Integrity Protocol), that passphrase, along with the network SSID, is used to generate unique encryption keys for each wireless client. And those encryption keys are constantly changed. Although WEP also supports passphrases, it does it only as a way to easily create static keys, which are usually comprised of the hex characters **0-9 and A-F**.
 
 ### An explicit SSID and a weak Password ###
 
-I recently renew my contract with the ISP, in this case: Altice Dominicana. They give me a new **Alcatel 4G Wireless Router** and again, they ship the router with the same old pattern again and again. The service is **really good**, kudos for Altice, that's why I keep choosing them, but since I don't trust my privacy to anyone, I'm always looking for weak vectors to protect myself.
+I recently renew my contract with the ISP, in this case: Altice Dominicana. They gave me a new **Alcatel 4G Wireless Router** and again, they ship the router with the same old pattern again and again. The service is **really good**, kudos for Altice, that's why I keep choosing them, but since I don't trust my privacy to anyone, I'm always looking for weak vectors to protect myself.
 
 The default setting is simple:
 
@@ -28,7 +28,7 @@ The default setting is simple:
 
 **KEY**: ZZZZ*SUFFIX*
 
-Where `SUFFIX` is a 4 characters long alphanumeric string shared between the SSID and the Key; and `ZZZZ` is another 4 characters long  alphanumeric string that completes a **8 characters long alphanumeric string**. The default key contains only capitalize letters and vocals and numbers between 0 to 9, so our base is: *ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789* (36 possible chars). Now, because we already know the last 4 characters (`SUFFIX`) we're ending up with *1,679,616 [36x36x36x36]* possible outcomes. To generate the dictionary we're going to use next code:
+Where `SUFFIX` is a 4 characters long alphanumeric string shared between the SSID and the Key; and `ZZZZ` is another 4 characters long  alphanumeric string that completes a **8 characters long alphanumeric string**. The default key contains only capitalize letters and vocals and numbers between 0 to 9, so our base is: *ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789* (36 possible options). Now, because we already know the last 4 characters (`SUFFIX`) we're ending up with *1,679,616 [36x36x36x36]* possible outcomes. To generate the dictionary we're going to use next code:
 
 ```python
 #!/usr/bin/env python
@@ -65,7 +65,7 @@ if __name__== "__main__":
     main(args.suffix, args.file)
 ```
 
-Enough for the theory...
+Enough theory...
 
 ### Let's have some fun ###
 
@@ -123,7 +123,7 @@ $ sudo aireplay-ng -0 5 -a A8:4E:3F:73:DD:88 -c 00:08:22:B9:41:A1 wlan0mon
 12:42:00  Sending 64 directed DeAuth. STMAC: [00:08:22:B9:41:A1] [ 0| 0 ACKs]
 ```
 
-If everything works the client will be eauthenticated and we're going to have our `Probe`:
+If everything works, the client will be authenticated again and we're going to have our `Probe`:
 
 ```
 BSSID              PWR  Beacons    #Data, #/s  CH  MB   ENC  CIPHER AUTH ESSID
@@ -134,7 +134,7 @@ BSSID              STATION            POWER    Rate    Lost    Frames    Probe
 A8:4E:3F:73:DD:88  00:08:22:B9:41:A1     -1    1-e 0      0       450    Internet Movil Orange_2DED
 ```
 
-Now we can stop that, generate our dictionary and crack they key.
+Now we can stop that, generate our dictionary and crack the key.
 
 ### Crack! Baby! Crack! ###
 
@@ -264,10 +264,10 @@ Started: Sat Sep 29 20:03:40 2018
 Stopped: Sat Sep 29 20:11:49 2018
 ```
 
-Eureka! the key was found fastest: `Internet Movil Orange_2DED:CF832DED`.
+Eureka! the key was found faster: `Internet Movil Orange_2DED:CF832DED`.
 
 ### Conclusion ###
 
-This wasn't rocket science and it should be valid for others ISPs around the world. I think at first glance this shouldn't be a problem for Altice, but I've seen this mobile routers being used for little business and that's scary. Maybe Altice's engineers and managers didn't anticipate the success of the service and overlooked this flaw in order to provide an easy to use WiFi service.
+This wasn't rockets science and it should be valid for others ISPs around the world. I think at first glance this shouldn't be a problem for Altice, but I've seen this mobile routers being used for little business and that's scary. Maybe Altice's engineers and managers didn't anticipate the success of the service and overlooked this flaw in order to provide an easy to use WiFi service.
 
 Also *hashcat* is faster! :)
