@@ -20,3 +20,6 @@ paginate: 5
 show_excerpts: true
 
 version: 30
+
+disqus:
+  shortname: david-tavarezs-blog
