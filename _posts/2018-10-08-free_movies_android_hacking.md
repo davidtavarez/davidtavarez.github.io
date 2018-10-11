@@ -191,11 +191,11 @@ $ curl http://varnatrd.tech/api/apk > com.bluemax.tv.apk
 
 You're welcome.
 
-[hackers-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/dev/_images/posts/screenshot_hackers_movies.png
-[JD-Gui-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/dev/_images/posts/jdGui_bluemax.png
-[JD-Gui-search-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/dev/_images/posts/jdGui_bluemax_search.png
-[JD-Gui-search-api-one]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/dev/_images/posts/jdGui_bluemax_api_one.png
-[JD-Gui-search-api-two]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/dev/_images/posts/jdGui_bluemax_api_two.png
-[bluemax-api-movies]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/dev/_images/posts/bluemax_movies.png
-[bluemax-api-movie-details]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/dev/_images/posts/bluemax_movie_details.png
-[vlc-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/dev/_images/posts/vlc_hackers.png
+[hackers-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/screenshot_hackers_movies.png
+[JD-Gui-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/jdGui_bluemax.png
+[JD-Gui-search-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/jdGui_bluemax_search.png
+[JD-Gui-search-api-one]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/jdGui_bluemax_api_one.png
+[JD-Gui-search-api-two]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/jdGui_bluemax_api_two.png
+[bluemax-api-movies]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/bluemax_movies.png
+[bluemax-api-movie-details]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/bluemax_movie_details.png
+[vlc-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/vlc_hackers.png
