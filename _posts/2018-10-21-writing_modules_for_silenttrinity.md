@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Writing a basic Module for SILENTRINITY"
+title:  "Writing a basic Module for SILENTTRINITY"
 date:   2018-10-21 18:47:00 -0400
 categories:
   - Code
@@ -71,14 +71,14 @@ class STModule:
             return src.encode()
 ```
 
-As you can notice, the class of the Module must be called `STModule` and must include a `Constructor` and a definition of a method called `payload`. Our constructor must contains at least the next properties:
+As you can notice, the class of the module must be called `STModule` and must include a `Constructor` and a definition of the method called `payload`. Our constructor must contains at least the next properties:
 
 * ***name***: the name of the module.
 * ***description***: a short summary of what your modules does.
 * ***author***: your handle.
 * ***options***: the options accepted in your module.
 
-All options are displayed after we selecte to use the module and run the `options` command:
+All options are displayed after we decided to use the module and run the `options` command:
 
 ```
 ST (modules) ≫ use uploader  
@@ -125,7 +125,7 @@ def DecodeBase64File(Data, FileName, FilePath="C:\\WINDOWS\\Temp\\"):
 print DecodeBase64File("DATA", "FILENAME", FilePath="DESTINATION")
 ```
 
-The "tricky" part resides here: `print DecodeBase64File("DATA", "FILENAME", FilePath="DESTINATION")`. We're calling `print` to read the results of `DecodeBase64File`, so that output is sent to the server:
+The "tricky" part resides here: `print DecodeBase64File("DATA", "FILENAME", FilePath="DESTINATION")`. We're calling `print` to read the results of `DecodeBase64File`, so the output is sent to the server:
 
 ```
 ST (modules)(uploader) ≫ run all
@@ -174,7 +174,7 @@ I did create a new module called: [Downloader](https://github.com/byt3bl33d3r/SI
         print_good("File was downloaded successfully: {}".format(self.path))
 ```
 
-Now we can have control of the response.
+Now we can have control of the response just overwritting the method: `process`.
 
 [SILENTTRINITY-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/SILENTTRINITY_screenshot.png
 [SILENTTRINITY-diagram]: https://user-images.githubusercontent.com/5151193/46646842-cd2b0580-cb49-11e8-9218-73226e977d58.png
