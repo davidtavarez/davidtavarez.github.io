@@ -135,6 +135,8 @@ File copied to: C:\WINDOWS\Temp\uploader.txt
 
 Going back to the module code, we're replacing *DATA* with the content of the file named *FILENAME* and then, passing the *DESTINATION* folder to the payload.
 
+![It's working!][UPLOADER-screenshot]
+
 That's it! Summarizing, there are just two steps:
 
 1. Create a class called: STModule with a constructor and a method named: `payload`.
@@ -179,3 +181,4 @@ Now we can have control of the response just overwritting the method: `process`.
 [SILENTTRINITY-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/SILENTTRINITY_screenshot.png
 [SILENTTRINITY-diagram]: https://user-images.githubusercontent.com/5151193/46646842-cd2b0580-cb49-11e8-9218-73226e977d58.png
 [SILENTTRINITY-pycharm-debug]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/4aa7a53f11c9ce9ed9957e60b1abace95afe5dda/_images/posts/pycharm_debug_SILENTTRINITY.png
+[UPLOADER-screenshot]: https://user-images.githubusercontent.com/337107/46912579-41e5b180-cf47-11e8-8adf-d4873ee624ac.png
