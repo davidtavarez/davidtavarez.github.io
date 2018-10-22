@@ -71,10 +71,10 @@ class STModule:
             return src.encode()
 ```
 
-As you can notice, the class of the module must be called `STModule` and must include a `Constructor` and a definition of the method called `payload`. Our constructor must contains at least the next properties:
+As you can notice, the class of the module must be called `STModule` and must include a `Constructor` and a definition of the method called `payload`. Our constructor must contain at least the next properties:
 
 * ***name***: the name of the module.
-* ***description***: a short summary of what your modules does.
+* ***description***: a short summary of what your module does.
 * ***author***: your handle.
 * ***options***: the options accepted in your module.
 
