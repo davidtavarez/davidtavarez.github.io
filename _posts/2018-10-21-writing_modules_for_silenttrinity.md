@@ -144,7 +144,7 @@ That's it! Summarizing, there are just two steps:
 
 ### But... there's more...
 
-I really wanted to manage the output using my module, so I send a [Pull Request](https://github.com/byt3bl33d3r/SILENTTRINITY/pull/15) for this. This is how my base class looks now:
+I really wanted to manage the output using my module, so I placed a [Pull Request](https://github.com/byt3bl33d3r/SILENTTRINITY/pull/15) for this. This is how my base class looks now:
 
 ```python
 class Module:
