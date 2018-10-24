@@ -21,3 +21,31 @@ The performance characteristics of IronPython compared to CPython, the reference
 IronPython is an excellent addition to the .NET Framework, providing Python developers with the power of the .NET framework. Existing .NET developers can also use IronPython as a fast and expressive scripting language for embedding, testing, or writing a new application from scratch.
 
 The CLR is a great platform for creating programming languages, and the DLR makes it all the better for dynamic languages. Also, the .NET framework (base class library, presentation foundation, Silverlight, etc.) gives developers an amazing amount of functionality and power.
+
+### Installing IronPython in Linux
+
+Installing IronPython is quite easy. Go to [mono-project](https://www.mono-project.com/download/stable/):
+
+1. Add the Mono repository to your system (Ubuntu based distro):
+```
+$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+$ echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+$ sudo apt update
+```
+2. Install Mono
+```
+$ sudo apt install mono-devel
+```
+3. Install Numerics
+```
+$ sudo apt install libmono-system-numerics4.0-cil  
+```
+4. Enjoy.
+```
+$ ipy -V                                                                                           david@david-Latitude-5480
+IronPython 2.7.9 2.7.9.0 on 5.16.0.179 (tarball Thu Oct  4 10:20:38 UTC 2018)
+------------------------------------------------------------
+$ ipy                                                                                              IronPython 2.7.9 (2.7.9.0) on Mono 4.0.30319.42000 (64-bit)
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
