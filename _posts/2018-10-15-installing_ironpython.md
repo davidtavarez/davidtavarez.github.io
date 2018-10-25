@@ -49,3 +49,38 @@ $ ipy                                                                           
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
+
+### Installing IronPython in MacOSX
+
+First, go to https://www.mono-project.com/download/stable/ and download the latest release and then install it; now, download IronPython from here: https://github.com/IronLanguages/ironpython2/releases and install the .pkg file.
+
+Easy, right? But wait, we'll need a final step...
+
+Open your terminal and locate the `ipy` command:
+
+```
+$ which ipy
+/Library/Frameworks/Mono.framework/Versions/Current/Commands/ipy
+```
+
+The file should be something like this:
+
+```bash
+#!/bin/sh
+export IRONPYTHONPATH=/Library/Frameworks/IronPython.framework/Versions/2.7.9/
+exec /Library/Frameworks/Mono.framework/Versions/5.16.0/bin/mono /Library/Frameworks/IronPython.framework/Versions/2.7.9/bin/ipy.exe "$@"
+```
+
+Same with *ipyw*:
+
+```bash
+#!/bin/sh
+export IRONPYTHONPATH=/Library/Frameworks/IronPython.framework/Versions/2.7.9/
+exec /Library/Frameworks/Mono.framework/Versions/5.16.0/bin/mono /Library/Frameworks/IronPython.framework/Versions/2.7.9/bin/ipyw.exe "$@"
+```
+
+Done.
+
+### Installing IronPython in Windows
+
+Download the .msi file from: https://github.com/IronLanguages/ironpython2/releases and install it. Done.
