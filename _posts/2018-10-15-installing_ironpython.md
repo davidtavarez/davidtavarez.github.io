@@ -52,7 +52,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ### Installing IronPython in MacOSX
 
-First, go to https://www.mono-project.com/download/stable/ and download the latest release and then install it; now, download IronPython from here: https://github.com/IronLanguages/ironpython2/releases and install the .pkg file.
+First, go to [https://www.mono-project.com/download/stable/](https://www.mono-project.com/download/stable/) and download the latest release and then install it; now, download IronPython from here: [https://github.com/IronLanguages/ironpython2/releases](https://github.com/IronLanguages/ironpython2/releases) and install the .pkg file.
 
 Easy, right? But wait, we'll need a final step...
 
@@ -83,4 +83,4 @@ Done.
 
 ### Installing IronPython in Windows
 
-Download the .msi file from: https://github.com/IronLanguages/ironpython2/releases and install it. Done.
+Download the .msi file from: [https://github.com/IronLanguages/ironpython2/releases](https://github.com/IronLanguages/ironpython2/releases) and install it. Done.
