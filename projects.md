@@ -17,8 +17,17 @@ permalink: /projects/
 
 ![Password Generator][passwords-screenshot]
 
+# [Password Generator][gluco-page]
+
+**GlucoLog** is a web application to record and track blood glucose levels, aimed at children under 14 years. Upon registration in the system, the child's parent or guardian enters their child's basic information and registers a read-only account for doctors only.
+
+![GlucoLog][glucolog-screenshot]
+
 [pinky-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/pinky_connected.png
 [pinky-page]: https://davidtavarez.github.io/pinky/
 
 [passwords-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/passwords_random.png
 [passwords-page]: https://davidtavarez.github.io/passwords/
+
+[glucolog-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/glucolog.png
+[glucolog-page]: https://davidtavarez.github.io/glucolog/
