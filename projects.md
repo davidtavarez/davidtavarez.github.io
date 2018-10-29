@@ -17,7 +17,7 @@ permalink: /projects/
 
 ![Password Generator][passwords-screenshot]
 
-# [Password Generator][gluco-page]
+# [GlucoLog][glucolog-page]
 
 **GlucoLog** is a web application to record and track blood glucose levels, aimed at children under 14 years. Upon registration in the system, the child's parent or guardian enters their child's basic information and registers a read-only account for doctors only.
 
