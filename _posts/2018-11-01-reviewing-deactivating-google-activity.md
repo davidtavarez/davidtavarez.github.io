@@ -9,9 +9,9 @@ tags:
 ---
 
 ![Google: Data & personalization](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/google_activity_control_main.png)
-Privacy can simply be defined as the right to be left alone. It is a comprehensive right and it is the right most valued by a free people. **It is a fundamental human right**.
+Privacy can simply be defined as the right to be left alone. It is a comprehensive right and it is the right most valued by free people. **It is a fundamental human right**.
 
-Privacy is the right of people to make personal decisions regarding their own intimate matters, it is the right of people to lead their lives in a manner that is reasonably secluded from public scrutiny. But... What is *information privacy*? **Information privacy** is the ability of an individual or group to stop information about themselves from becoming known to people other than those they choose to give the information to. *An individual shoul be able to hide information about themselves for no reason other than to keep it from others*.
+Privacy is the right of people to make personal decisions regarding their own intimate matters, it is the right of people to lead their lives in a manner that is reasonably secluded from public scrutiny. But... What is *information privacy*? **Information privacy** is the ability of an individual or group to stop information about themselves from becoming known to people other than those they choose to give the information to. *An individual should be able to hide information about themselves for no reason other than to keep it from others*.
 
 ### Why does privacy matter?
 
@@ -43,7 +43,7 @@ The last step is to prevent Google keep tracking your moves. Go to [Activity con
 
 ![Activity control](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/google_actitvity_control.png)
 
-One of the most important step is to turn off Ad personalization. Jus go to the end and then click on **Ads**; or just continue to [https://adssettings.google.com/authenticated](https://adssettings.google.com/authenticated)
+One of the most important steps is to turn off Ad personalization. Jus go to the end and then click on **Ads**; or just continue to [https://adssettings.google.com/authenticated](https://adssettings.google.com/authenticated)
 
 ![Ads](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/google_activity_ads.png)
 
@@ -53,4 +53,4 @@ Move the switch to the left.
 
 ### Google will keep tracking us but less... ###
 
-Stopping and deleting all this information doesn't mean Google won't track us but until now that's all we can do. My last recommendation is to make use of another Search Engine like [DuckDuckGo](https://duckduckgo.com/) and a browser like [Tor Browser](https://www.torproject.org/). I will posting later on how to create our VPN, so keep tuned!
+Stopping and deleting all this information doesn't mean Google won't track us but until now that's all we can do. My last recommendation is to make use of another Search Engine like [DuckDuckGo](https://duckduckgo.com/) and a browser like [Tor Browser](https://www.torproject.org/). I will be posting later on how to create our VPN, so keep tuned!
