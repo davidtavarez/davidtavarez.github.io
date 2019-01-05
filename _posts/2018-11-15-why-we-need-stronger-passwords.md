@@ -11,7 +11,7 @@ tags:
 
 A **password** is a string of characters used for user authentication to prove identity or access approval to gain access to a resource, which is to be kept secret from those not allowed access. Passwords help ensure that computers or data can only be accessed by those who have been granted the right to view or access them. Your password is more than just a key to your online account. If your password falls into the wrong hands, someone can easily impersonate you while online, sign your name to online service agreements or contracts, engage in transactions, or change your account information.
 
-Reusing passwords is an exceptionally bad security practice. If a bad actor gets ahold of a password that you've reused across multiple services, they can gain access to many of your accounts. This is why having multiple, strong, unique passwords is so important. Here 3 simple reasons why it is important to use strong passwords.
+Reusing passwords is an exceptionally bad security practice. If someone finds a password that you've reused across multiple services, they can gain access to many of your accounts. This is why having multiple, strong, unique passwords is so important. Here are 3 simple reasons why it is important to use strong passwords.
 
 ### 1.- Brute Force attacks are still a thing. ###
 
