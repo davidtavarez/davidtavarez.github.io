@@ -109,6 +109,10 @@ Searching...
 
 We have 2 arguments: `u` for the username and `d` for the domain. Note: I'm using `%` as a wildcard character at the end of each argument in order to get more results.
 
-### Change your password.
+### have i been pwned? (bonus)
 
-If your password was leaked, **change it**. Anyhow try to not have the same password in all your services and change those credentials frequently.
+Also you can go to [https://haveibeenpwned.com/](https://haveibeenpwned.com/) to se more information:
+
+![haveibeenpwned.com](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/haveibeenpwned_screenshot.png)
+
+REMEMBER: If your password was leaked, **change it**. Anyhow try to not have the same password in all your services and change those credentials frequently.
