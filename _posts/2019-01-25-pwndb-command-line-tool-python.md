@@ -11,19 +11,19 @@ tags:
 ---
 
 ![pwndb](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/pwndb_py_screenshot.png)
-A data leak differs from a data breach in that the former usually happens through omission or faulty practices rather than overt action, and may be so slight that it is never detected. While a data breach usually means that sensitive data has been harvested by someone who should not have accessed it, a data leak is a situation where such sensitive information might have beeninadvertently exposed. [pwndb](http://pwndb2am4tzkvold.onion/) is a onion service where **leaked accounts are searchable** using a simple form.
+A data leak differs from a data breach in that the former usually happens through omission or faulty practices rather than overt action, and may be so slight that it is never detected. While a data breach usually means that sensitive data has been harvested by someone who should not have accessed it, a data leak is a situation where such sensitive information might have beeninadvertently exposed. [pwndb](http://pwndb2am4tzkvold.onion/) is an onion service where **leaked accounts are searchable** using a simple form.
 
-After a breach occurs the data obtained is often in sell. Sometimes, people tries to blackmail the affected company asking for money in exchange of not posting the data online. The second option is selling the data to a competitor, a rival or even an enemy. This data is used in so many ways by companies and countries... but when the people responsible for obtaining the data fail to sell it the bundle became worthless and they end up being placed in some places like [pastebin](https://pastebin.com/) or [pwndb](http://pwndb2am4tzkvold.onion/).
+After a breach occurs the data obtained is often in sell. Sometimes, people tries to blackmail the affected company, asking for money in exchange of not posting the data online. The second option is selling the data to a competitor, a rival or even an enemy. This data is used in so many different ways by companies and countries... but when the people responsible for obtaining the data fails on selling it, the bundle became worthless and they end up being placed in some places like [pastebin](https://pastebin.com/) or [pwndb](http://pwndb2am4tzkvold.onion/).
 
 ### Searching for leaked creadentials.
 
-The easiest way is to access the Onion service using the url: [http://pwndb2am4tzkvold.onion/](http://pwndb2am4tzkvold.onion/) and type the username and/or the domain name and hit in button with the label: `email`. You should see somehting like this:
+The easiest way is to search for leaked credentials, is accessing the Onion service using the url: [http://pwndb2am4tzkvold.onion/](http://pwndb2am4tzkvold.onion/) and then type the username and/or the domain name and hit in button with the label: `email`. You should see somehting like this:
 
 ![pwndb](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/pwndb_onion_screenshot.png)
 
 ### Using the command line.
 
-I love using the Terminal because it's faster, also I want to have more flexibility; so, I decided to create a [command-line script](https://github.com/davidtavarez/pwndb) to help me find out if my accounts have been leaked. I'm using the same setting of Tor Browser to use Tor as a SOCKS5 proxy, so we need to have Tor Browser running or just change the IP and Port:
+I love using the Terminal because it's faster, also I want to have more flexibility; so, I decided to create a [command-line tool](https://github.com/davidtavarez/pwndb). I'm using the same settings of Tor Browser to use Tor as a SOCKS5 proxy, so we need to have Tor Browser running or just change the IP and Port:
 
 ```python
 def create_connection(address, timeout=None, source_address=None):
@@ -107,7 +107,7 @@ Searching...
 (venv) $
 ```
 
-We have 2 arguments: `u` for the username and `d` for the domain. Note: I'm using `%` as a wildcard character at the end of each argument in order to get more results.
+We have 2 arguments: `-u` for the username and `-d` for the domain. Note: I'm using `%` as a wildcard character at the end of each argument in order to get more results.
 
 ### have i been pwned? (bonus)
 
