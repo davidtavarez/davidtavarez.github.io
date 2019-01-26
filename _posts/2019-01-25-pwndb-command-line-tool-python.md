@@ -111,7 +111,7 @@ We have 2 arguments: `-u` for the username and `-d` for the domain. Note: I'm us
 
 ### have i been pwned? (bonus)
 
-Also you can go to [https://haveibeenpwned.com/](https://haveibeenpwned.com/) to se more information:
+Also you can go to [https://haveibeenpwned.com/](https://haveibeenpwned.com/) to see more information:
 
 ![haveibeenpwned.com](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/haveibeenpwned_screenshot.png)
 
