@@ -2,10 +2,10 @@ remote_theme: fongandrew/hydeout
 markdown: kramdown
 highlighter: rouge
 
-title: "I'm David"
+title: "David Tavarez"
 tagline: "Coding for fun and profit!"
 url: https://davidtavarez.github.io/
-description: "Software engineer, Security and privacy freak and Pentester enthusiast."
+description: "Software Developer and Privacy Freak."
 
 author:
   name: "David Tavarez"
