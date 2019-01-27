@@ -13,11 +13,11 @@ tags:
 ![pwndb](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/pwndb_py_screenshot.png)
 A data leak differs from a data breach in that the former usually happens through omission or faulty practices rather than overt action, and may be so slight that it is never detected. While a data breach usually means that sensitive data has been harvested by someone who should not have accessed it, a data leak is a situation where such sensitive information might have been inadvertently exposed. [pwndb](http://pwndb2am4tzkvold.onion/) is an onion service where **leaked accounts are searchable** using a simple form.
 
-After a breach occurs the data obtained is often put in sell. Sometimes, people try to blackmail the affected company, asking for money in exchange of not posting the data online. The second option is selling the data to a competitor, a rival or even an enemy. This data is used in so many different ways by companies and countries... but when the people responsible for obtaining the data fail on selling it, the bundle became worthless and they end up being placed in some sites like [pastebin](https://pastebin.com/) or [pwndb](http://pwndb2am4tzkvold.onion/).
+After a breach occurs the data obtained is often put on sale. Sometimes, people try to blackmail the affected company, asking for money in exchange of not posting the data online. The second option is selling the data to a competitor, a rival or even an enemy. This data is used in so many different ways by companies and countries... but when the people responsible for obtaining the data fail on selling it, the bundle becomes worthless and they end up being placed in some sites like [pastebin](https://pastebin.com/) or [pwndb](http://pwndb2am4tzkvold.onion/).
 
 ### Searching for leaked credentials.
 
-The easiest way is to search for leaked credentials, is accessing the Onion service using the url: [http://pwndb2am4tzkvold.onion/](http://pwndb2am4tzkvold.onion/) and then type the username and/or the domain name and make click on the button with the label: `email`. You should see somehting like this:
+The easiest way is to search for leaked credentials, is accessing the Onion service using the url: [http://pwndb2am4tzkvold.onion/](http://pwndb2am4tzkvold.onion/) and then type the username and/or the domain name and click on the button with the label: `email`. You should see somehting like this:
 
 ![pwndb](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/pwndb_onion_screenshot.png)
 
