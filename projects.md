@@ -31,3 +31,6 @@ permalink: /projects/
 
 [glucolog-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/glucolog.png
 [glucolog-page]: https://davidtavarez.github.io/glucolog/
+
+[pwndb-screenshot]: https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/pwndb_py_screenshot.png
+[pwndb-page]: https://davidtavarez.github.io/pwndb/
