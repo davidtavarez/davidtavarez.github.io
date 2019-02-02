@@ -5,6 +5,12 @@ sidebar_link: true
 permalink: /projects/
 ---
 
+# [pwndb.py][pwndb-page]
+
+**pwndb.py** is a Python command-line tool for searching leaked credentials using the Onion service with the same name.
+
+![pwndb][pwndb-screenshot]
+
 # [Pinky][pinky-page] - The PHP Mini RAT
 
 **Pinky** is a command line web shell designed for remote administration and pen testing, which helps you to bypass text content filtering and whitelisting applications policies with a minimum effort. It provides a powerfull bash-like console through a PHP agent running on the target, even in restricted environments.
