@@ -8,6 +8,7 @@ tags:
   - passwords
   - pwndb
   - python
+  - leaks
 ---
 
 ![pwndb](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/pwndb_py_screenshot.png)
