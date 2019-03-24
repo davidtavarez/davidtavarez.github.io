@@ -42,7 +42,7 @@ choosing safe curves for elliptic-curve cryptography](https://safecurves.cr.yp.t
 
 ### ECDiffieHellmanCng Class
 
-Provides a Cryptography Next Generation (CNG) implementation of the Elliptic Curve Diffie-Hellman (ECDH) algorithm. This class is used to perform cryptographic operations. A basic example could be as follow:
+Provides a Cryptography Next Generation (CNG) implementation of the Elliptic Curve Diffie-Hellman (ECDH) algorithm. This class is used to perform cryptographic operations. A basic example could be as follows:
 
 ```c#
 ECDiffieHellmanCng alice = new ECDiffieHellmanCng();
@@ -58,14 +58,14 @@ byte[] bobKey = bob.DeriveKeyMaterial(alice.PublicKey);
 byte[] aliceKey = alice.DeriveKeyMaterial(bob.PublicKey);
 ```
 
-After running this code, aliceKey and bobKey are both 32 bytes long and match each other.  Now, Alice could use this as a symmetric key:
+After running this code, *aliceKey* and *bobKey* are both 32 bytes long and match each other.  Now, Alice could use this as a symmetric key:
 
 ```c#
 AesCryptoServiceProvider aes = new AesCryptoServiceProvider();
 aes.Key = aliceKey;
 ```
 
-Easy! right? right! the problem here is that **ECDiffieHellmanCng** is not avaiable (yet) on `mono` either on `linux` or `macos`, look here [https://github.com/mono/mono/issues/9037](https://github.com/mono/mono/issues/9037) and here: [https://github.com/mono/mono/issues/9463](https://github.com/mono/mono/issues/9463).
+Easy! right? right! the problem here is that **ECDiffieHellmanCng** is not available (yet) on `mono` either on `linux` or `macos`, look here [https://github.com/mono/mono/issues/9037](https://github.com/mono/mono/issues/9037) and here: [https://github.com/mono/mono/issues/9463](https://github.com/mono/mono/issues/9463).
 
 So... What can we do?
 
