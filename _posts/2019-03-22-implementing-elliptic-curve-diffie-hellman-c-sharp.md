@@ -9,7 +9,7 @@ tags:
   - cryptography
   - mono
 ---
-The Diffie-Hellman key exchange algorithm is a method to securely establish a shared secret between two parties (Alice and Bob). **Elliptic-curve Diffie–Hellman (ECDH)** is allows the two parties, each having an elliptic-curve public–private key pair, to establish the shared secret. This shared secret may be directly used as a key, or to derive another key. The key, or the derived key, can then be used to encrypt subsequent communications using a symmetric-key cipher. It is a variant of the Diffie–Hellman protocol using elliptic-curve cryptography. 
+The Diffie-Hellman key exchange algorithm is a method to securely establish a shared secret between two parties (Alice and Bob). **Elliptic-curve Diffie–Hellman (ECDH)** allows the two parties, each having an elliptic-curve public–private key pair, to establish the shared secret. This shared secret may be directly used as a key, or to derive another key. The key, or the derived key, can then be used to encrypt subsequent communications using a symmetric-key cipher. It is a variant of the Diffie–Hellman protocol using elliptic-curve cryptography. 
 
 ### Diffie-Hellman
 
