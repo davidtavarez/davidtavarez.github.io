@@ -1,6 +1,6 @@
 # Site settings
 title_left    : "David Tavarez"
-title_right   : "space" # default: ""
+title_right   : "'s space" # default: ""
 description   : "Coding for fun and profit!"
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
 url           : https://davidtavarez.github.io # site url
@@ -34,15 +34,6 @@ plugins:
   - jekyll-sitemap
   - bourbon
   - jekyll-paginate
-
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
-  - slug : projects
-    title: Projects
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
 
