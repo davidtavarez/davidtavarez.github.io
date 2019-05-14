@@ -1,11 +1,5 @@
 ---
-# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-# only main files contain this front matter, not partials.
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
-
-$sidebar-bg-color: #0d0d0d !default;
-$sidebar-sticky: true !default;
-$layout-reverse: false !default;
-$link-color: #268bd2 !default;
-
-@import "hydeout";
+@charset "utf-8";
+@import "main";
