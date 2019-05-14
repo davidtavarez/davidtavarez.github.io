@@ -1,6 +1,6 @@
 # Site settings
 title_left    : "David Tavarez"
-title_right   : "space" # default: ""
+title_right   : "" # default: ""
 description   : "Coding for fun and profit!"
 keywords      : "Hacking, Python, .NET, Cybersecurity, C#, Programming"
 url           : https://davidtavarez.github.io # site url
