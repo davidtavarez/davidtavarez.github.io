@@ -1,16 +1,16 @@
+---
+layout: compress
+published: true
+---
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html>
   {% include head.html %}
-
-  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
-
-    {% include sidebar.html %}
-
-    <main class="container">
+  <body>
+    <main class="wrapper">
+      {% include header.html %}
       {{ content }}
+      {% include footer.html %}
     </main>
-
-    {% include custom-foot.html %}
+    {% include foot.html %}
   </body>
 </html>

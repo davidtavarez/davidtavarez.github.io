@@ -1,25 +1,51 @@
-remote_theme: fongandrew/hydeout
-markdown: kramdown
-highlighter: rouge
+# Site settings
+title_left    : "David Tavarez"
+title_right   : "space" # default: ""
+description   : "Coding for fun and profit!"
+keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+url           : https://davidtavarez.github.io/ # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
 
-title: "David Tavarez"
-tagline: "Coding for fun and profit!"
-url: https://davidtavarez.github.io/
-description: "Software Developer and Privacy Freak."
+twitter_username  : "davidtavarez"
+comments_enabled  : true # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : "david-tavarezs-blog"
+postshare_enabled : true
 
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source      : ./
+destination : ./_site
+
+# Sass configuration
+sass:
+  sass_dir  : assets/scss
+  style     : compressed # expanded
+
+# Author settings
 author:
   name: "David Tavarez"
   url: https://twitter.com/davidtavarez
 
 plugins:
- - jekyll-feed
- - jekyll-gist
- - jekyll-paginate
- 
-paginate: 5
-show_excerpts: true
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
 
-version: 30
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+  - slug : projects
+    title: Projects
 
-disqus:
-  shortname: david-tavarezs-blog
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
+
+remote_theme: fongandrew/hydeout
+markdown: kramdown
+highlighter: rouge
