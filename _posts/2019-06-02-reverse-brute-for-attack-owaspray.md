@@ -53,14 +53,6 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 $ python spray.py --help
 
-  .--. .-.   .-. .--.
- : ,. :: :.-.: :: .; :
- : :: :: :: :: ::    : .--. .---. .--.  .--.  .-..-.
- : :; :: `' `' ;: :: :`._-.': .; `: ..'' .; ; : :; :
- `.__.' `.,`.,' :_;:_;`.__.': ._.':_;  `.__,_;`._. ;
-                            : :                .-. :
-                            :_;                `._.'
-
 usage: spray.py [-h] -t TARGET -u USERNAME_FILE -p PASSWORD_FILE
                 [--tor-host TOR_HOST] [--tor-port TOR_PORT]
 
