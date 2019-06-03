@@ -7,7 +7,7 @@ comments: true
 description: "How to use OWAspray.py to hack into Outlook Web App?"
 ---
 
-Weak passwords are still a thing. I've being worried about this for a while. Weak passwords aren't new and we should paying attention since a malicious person can go further from a compromised account. In only 5 minutes anybody can access to a network and move laterally once inside. As a Proof of Concept I did publish a simple Python script called [OWAspray.py](https://github.com/davidtavarez/owaspray) to test the top 10 worst password we possibly find.
+Weak passwords are still a thing. I've being worried about this for a while. Weak passwords aren't new and we should pay attention to this since a malicious person can go further from a compromised account. In only 5 minutes anybody can access to a network and move laterally once inside. As a Proof of Concept I did publish a simple Python script called [OWAspray.py](https://github.com/davidtavarez/owaspray) to test the top 10 worst password we possibly find.
 
 First we're going to collect using [theHavester](https://github.com/laramies/theHarvester); theHarvester is a very simple, yet effective tool designed to be used in the early stages of a penetration test. Use it for open source intelligence gathering and helping to determine a company's external threat landscape on the internet. Let's install it:
 
