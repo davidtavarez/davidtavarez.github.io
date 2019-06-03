@@ -7,9 +7,9 @@ comments: true
 description: "How to use OWAspray.py to hack into Outlook Web App?"
 ---
 
-Weak passwords are still a thing. I've being worried about this for a while. Weak passwords aren't new and we should pay attention to this since a malicious person can go further from a compromised account. In only 5 minutes anybody can access to a network and move laterally once inside. As a Proof of Concept I did publish a simple Python script called [OWAspray.py](https://github.com/davidtavarez/owaspray) to test the top 10 worst password we possibly could find.
+Weak passwords are still a thing. I've been worried about this for a while. Weak passwords aren't new and we should pay attention to this since a malicious person can go further from a compromised account. In only 5 minutes anybody can access to a network and move laterally once inside. As a Proof of Concept I published a simple Python script called [OWAspray.py](https://github.com/davidtavarez/owaspray) to test the top 10 worst passwords we possibly could find.
 
-First, we're going to collect some emails using [theHavester](https://github.com/laramies/theHarvester); theHarvester is a very simple, yet effective tool designed to be used in the early stages of a penetration test. Use it for open source intelligence gathering and helping to determine a company's external threat landscape on the internet. Let's install it:
+First, we're going to collect some emails using [theHarvester](https://github.com/laramies/theHarvester); theHarvester is a very simple, yet effective tool designed to be used in the early stages of a penetration test. Use it for open source intelligence gathering and determine a company's external threat landscape on the internet. Let's install it:
 
 ```bash
 $ git clone https://github.com/laramies/theHarvester.git
@@ -43,7 +43,7 @@ Let's the magic begin...
 
 ## OWAspray.py
 
-Password spraying refers to the attack method that takes a large number of usernames and loops them with a single password. These attacks have become one of the favorite technique of attackers, as it has proved to be very effective for advancing through a network after having established a foothold inside. I did write a script to test this, let's try it:
+Password spraying refers to the attack method that takes a large number of usernames and loops them with a single password. These attacks have become one of the favorite technique of attackers, as it has proved to be very effective for advancing through a network after having established a foothold inside. I wrote a script to test this, let's try it:
 
 ```bash
 $ git clone https://github.com/davidtavarez/owaspray
@@ -100,6 +100,6 @@ $ python spray.py -t https://mail.DOMAIN -u users.txt -p passwords.txt
 
 The important question is: how far can I go from here? Well, if you got an admin account, you can move to `/ecp/` and have fun; also, find some open `RDP` will be fine I guess... what else? I don't know, ***use your creativity!***
 
-### What should we do to protect users
+### What should we do to protect users?
 
-It's very simple: use better passwords, do not repeat passwords, enforce 2F Auth and create a max-attempt policy.
+It's very simple: use better passwords, do not repeat passwords, enforce Two-Factor (2F) Authentication and create a max-attempt policy.
