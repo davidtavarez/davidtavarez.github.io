@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building a simple encrypted cloud accessible through tor"
+title:  "Running a simple encrypted cloud accessible through tor"
 date:   2019-07-21 23:00:00 -0400
 keywords: "python, security, tor, onion, owncloud, safer"
 comments: true
