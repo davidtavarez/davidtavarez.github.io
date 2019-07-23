@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Hidden Service to Hosting encrypted files using Docker"
+title:  "Running a Hidden Service to Hosting encrypted files using Docker"
 date:   2019-07-21 23:00:00 -0400
 keywords: "python, security, tor, onion, owncloud, safer"
 comments: true
@@ -33,7 +33,7 @@ $ bash manage -h
   \___||__|__||__| |_____||__|\_|
 ------------------------------------------------------------------------
 Usage: manage [-h]
-Usage: manage [option...] --{init|start|halt|clean|stats}
+Usage: manage [option...] --{init|start|halt|reload|rebuild|clean|onion}
 
    --- MANAGEMENT ---
    -i, --init, init           Initializes the containers.
