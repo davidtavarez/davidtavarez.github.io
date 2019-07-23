@@ -7,12 +7,12 @@ comments: true
 description: "Storing encrypted files using tor"
 ---
 
-Lately I've been playing with my Raspberry Pi and it's impressive how many cool things we can do with them. I've found some blog posts about how to install [ownCloud](https://owncloud.org/) in the Raspberry Pi, which is nice, but I feel like, for me ownCloud it's like using a hammer to kill a mosquito. So, I decided to write my own API to upload and download files :)
+Lately I've been playing with my Raspberry Pi and it's impressive how many cool things we can do with them. There are some blog posts explaining how to install [ownCloud](https://owncloud.org/) in the Raspberry Pi, which is nice, but I feel like, for me ownCloud it's like using a hammer to kill a mosquito. So, I decided to write my own API to upload and download files :)
 
 ## Safer
-### A torifyed dockerized RESTful API for storing encrypted files
+### A torifyed-dockerized RESTful API for storing encrypted files
 
-Safer is a RESTful API written in Python using Flask which is mount it inside a docker container and accessible via Tor. Each file is encrypted itself and can be only decrypted using a **Key**; this key is generated using a *password*. In order download the file you will need the *ID* of the file and the *Key*. Since the key isn't stored by the API will need to save it by yourself. The funny thing is that a [Hidden Service](https://2019.www.torproject.org/docs/onion-services) is created and an **.onion v3** is generated.
+Safer is a RESTful API written in Python using Flask which is mount it inside a docker container and it's accessible via Tor. All files are encrypted and can be only decrypted by using a **Key**; this key is generated from a *password*. In order download any file you need the *ID* of the file and the *Key*. Since the key isn't stored by the server you will need to save it by yourself. The funny thing is that a [Hidden Service](https://2019.www.torproject.org/docs/onion-services) is created and an **.onion v3** is generated.
 
 ### How it works?
 
@@ -20,7 +20,7 @@ Safer is a RESTful API written in Python using Flask which is mount it inside a 
 
 (Docker) Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a Compose file to configure your application's services. Then, using a single command, you cat create and start all the services from your configuration.
 
-I'm using Docker Compose to run a Hidden Service for the API. The URL is generated internally using (pytor)[https://github.com/cmehay/pytor] and I added a bash script to manage the service called **bash** (I'm too creative! right?!):
+I'm using Docker Compose to run a Hidden Service for the API. The URL is generated internally using (pytor)[https://github.com/cmehay/pytor]. To manage the containers you need to use a bash script called **manage** (I'm too creative! right?!):
 
 ```bash
 $ bash manage -h
@@ -70,7 +70,7 @@ Adding a download function to your .bash_profile file...
 Done. Remember to do: source ~/.bash_profile
 ```
 
-Now 2 functions were created: `upload` and `download`. Also we can access the url using Tor Browser to confirm:
+Now 2 functions were created: `upload` and `download`. Also we can access the url using Tor Browser to confirm if the containers are running:
 
 ![index](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/safer_onion.png)
 
@@ -110,6 +110,6 @@ It works perfectly!
 
 ### What's next?!
 
-Well, I think this is a pretty simple and fast. I truly recommend to run this on the encrypted disk. Try it by yourself using this link: [safer](https://davidtavarez.github.io/safer/). Feel free to open an issue if you found something; also I would love some contributions too.
+Well, I think this is a pretty simple and fast solution for storing some important and personal files. I truly recommend to run the service on an encrypted disk. Try it by yourself using this link: [safer](https://davidtavarez.github.io/safer/). Feel free to open an issue if you found something; also I would love some contributions too.
 
 Stay safe!
