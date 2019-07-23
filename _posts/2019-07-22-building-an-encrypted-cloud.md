@@ -106,4 +106,10 @@ $ ls -lh
 ...
 ```
 
-It works!
+It works perfectly!
+
+### What's next?!
+
+Well, I think this is a pretty simple and fast. I truly recommend to run this on the encrypted disk. Try it by yourself using this link: [safer](https://davidtavarez.github.io/safer/). Feel free to open an issue if you found something; also I would love some contributions too.
+
+Stay safe!
