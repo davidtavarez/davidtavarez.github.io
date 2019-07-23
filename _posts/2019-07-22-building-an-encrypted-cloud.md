@@ -18,7 +18,7 @@ Safer is a RESTful API written in Python using Flask which is mounted inside a d
 
 ![Running a Hidden Tor Service with Docker Compose](https://i.imgur.com/POdnQSA.png)
 
-(Docker) Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a Compose file to configure your application's services. Then, using a single command, you cat create and start all the services from your configuration.
+(Docker) Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a Compose file to configure your application's services. Then, using a single command, you can create and start all the services from your configuration.
 
 I'm using Docker Compose to run a Hidden Service for the API. The URL is generated internally using (pytor)[https://github.com/cmehay/pytor]. To manage the containers you need to use a bash script called **manage** (I'm too creative! right?!):
 
