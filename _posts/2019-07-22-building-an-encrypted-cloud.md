@@ -36,7 +36,7 @@ Usage: manage [-h]
 Usage: manage [option...] --{init|start|halt|clean|stats}
 
    --- MANAGEMENT ---
-   -i, --init, init           Initializes the development environment.
+   -i, --init, init           Initializes the containers.
    -s, --start, start         Starts all configured services.
    -p, --halt, halt           Stops all configured services.
    -r, --reload, reload       Restart all configured services.
