@@ -7,14 +7,14 @@ comments: true
 description: "Storing encrypted files using tor"
 ---
 
-Lately I've been playing with my Raspberry Pi and it's impressive how many cool things we can do with them. There are some blog posts explaining how to install [ownCloud](https://owncloud.org/) in the Raspberry Pi, which is nice, but I feel like, for me ownCloud it's like using a hammer to kill a mosquito. So, I decided to write my own API to upload and download files :)
+Lately I've been playing with my Raspberry Pi and it's impressive how many cool things we can do with one of these. There are some blog posts explaining how to install [ownCloud](https://owncloud.org/) in the Raspberry Pi, which is nice, but I feel like, for me ownCloud it's like using a hammer to kill a mosquito. So, I decided to write my own API to upload and download files :)
 
 ## Safer
 ### A torifyed-dockerized RESTful API for storing encrypted files
 
-Safer is a RESTful API written in Python using Flask which is mount it inside a docker container and it's accessible via Tor. All files are encrypted and can be only decrypted by using a **Key**; this key is generated from a *password*. In order download any file you need the *ID* of the file and the *Key*. Since the key isn't stored by the server you will need to save it by yourself. The funny thing is that a [Hidden Service](https://2019.www.torproject.org/docs/onion-services) is created and an **.onion v3** is generated.
+Safer is a RESTful API written in Python using Flask which is mounted inside a docker container and it's accessible via Tor. All files are encrypted and can be only decrypted by using a **Key**; this key is generated from a *password*. In order to download any file you need the *ID* of the file and the *Key*. Since the key isn't stored by the server you will need to save it by yourself. The funny thing is that a [Hidden Service](https://2019.www.torproject.org/docs/onion-services) is created and an **.onion v3** is generated.
 
-### How it works?
+### How does it work?
 
 ![Running a Hidden Tor Service with Docker Compose](https://i.imgur.com/POdnQSA.png)
 
