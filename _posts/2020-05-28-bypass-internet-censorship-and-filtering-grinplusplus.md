@@ -7,7 +7,7 @@ comments: true
 description: "How to bypass censorship to receive Grins via Grin++ and Tor"
 ---
 
-With [Grin](http://grin.mw), users are able to send and receive money via **Files** and [**Tor**]([What Is Tor and Should I Use It?](https://lifehacker.com/what-is-tor-and-should-i-use-it-1527891029)). Users from countries with high levels of censorship usually face issues trying to receive coins because Tor is unable to establish a connection with a relay. Tor relays are also referred to as "routers" or "nodes", they receive traffic on the Tor network and pass it along.
+With [Grin](http://grin.mw), users are able to send and receive money via **Files** and [**Tor**](https://lifehacker.com/what-is-tor-and-should-i-use-it-1527891029). Users from countries with high levels of censorship usually face issues trying to receive coins because Tor is unable to establish a connection with a relay. Tor relays are also referred to as "routers" or "nodes", they receive traffic on the Tor network and pass it along.
 
 ### Is my Grin++ Wallet Unavailable (or not reachable)?
 
