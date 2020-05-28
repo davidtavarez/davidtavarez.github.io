@@ -1,19 +1,17 @@
 ---
-
-layout: post
+layout: post
 title: "Bypassing Internet Censorship to receive Grins via Grin++"
-date: 2020-05-28 23:00:00 -0400
-keywords: "grin++, grin, tor, onion, censorship"
-comments: true
-description: "How to bypass censorship to receive Grins via Grin++ and Tor"
-
+date: 2020-05-28 20:20:00 -0400
+keywords: "grin++, grin, tor, onion, censorship"
+comments: true
+description: "How to bypass censorship to receive Grins via Grin++ and Tor"
 ---
-
-### Bypassing Internet Censorship to receive Grins via Grin++
 
 With [Grin](http://grin.mw), users are able to send and receive money via **Files** and [**Tor**]([What Is Tor and Should I Use It?](https://lifehacker.com/what-is-tor-and-should-i-use-it-1527891029)). Users from countries with high levels of censorship usually face issues trying to receive coins because Tor is unable to establish a connection with a relay. Tor relays are also referred to as "routers" or "nodes", they receive traffic on the Tor network and pass it along.
 
-#### Is my Grin++ Wallet Unavailable (or not reachable)?
+## Bypassing Internet Censorship to receive Grins via Grin++
+
+### Is my Grin++ Wallet Unavailable (or not reachable)?
 
 When you login into your account, [Grin++](https://grinplusplus.github.io/) gives you an address, this "address" can be used to receive Grins from any Exchange and/or user. Grin++ will run a periodical check to validate if the address is reachable from other wallets.
 
