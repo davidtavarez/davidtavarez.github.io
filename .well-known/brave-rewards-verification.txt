@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: davidtavarez.github.io
+Token: 323a63e91d05d05813c0ce4eb5d5ddf0749da649a5f9145c0fbbdb103af7a11e
