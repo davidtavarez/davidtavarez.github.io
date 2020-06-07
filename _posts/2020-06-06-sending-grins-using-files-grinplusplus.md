@@ -11,7 +11,7 @@ description: "Sending $GRIN ツ using Grin++ via Files"
 
 Grin is a _Disruptive Technology_, why am I so confident saying this? Because disruptive technologies are sometimes described as being simultaneously destructive and creative because they make old products, and sometimes even entire industries, **obsolete**, creating new ones in their place. Disruptive technologies have the power to change the way we work, live, think and behave. And this is what Grin is doing right now and it will keep doing.
 
-Today, we're going to learn how to send Grins via Files.. files?! yes, files!
+Today, we're going to learn how to send Grins via Files... files?! yes, files!
 
 The first thing that we're going to do is to click on the Send button to open the Sending screen, then we're going to type the amount, in this case 8.1 grins, like this:
 
