@@ -45,12 +45,12 @@ This will generate a _.response_ file, the receiver should send this file back t
 
 To finalize the transaction, you (the sender) need to select the .response file and click on "Process":
 
-![finalize](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile006.png)
+![finalize](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile006.PNG)
 
-![finalized](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile007.png)
+![finalized](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile007.PNG)
 
 That's all! After finalized, the Transaction should be confirmed:
 
-![waiting confirmation](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile008.png)
+![waiting confirmation](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile008.PNG)
 
 I know this is a bit tedious, but **Privacy** and **Anonymity** should be preserved at all costs. Grin is a pain in the ass for authoritarian goverments, corporations and banks. Grin is for those who love **Freedom**.
