@@ -53,4 +53,4 @@ That's all! After finalized, the Transaction should be confirmed:
 
 ![waiting confirmation](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile008.PNG)
 
-I know this is a bit tedious, but **Privacy** and **Anonymity** should be preserved at all costs. Grin is a pain in the ass for authoritarian goverments, corporations and banks. Grin is for those who love **Freedom**.
+I know this is a bit tedious, but **Privacy** and **Anonymity** should be preserved at all costs. Grin is a pain in the ass for authoritarian governments, corporations and banks. Grin is for those who love **Freedom**.
