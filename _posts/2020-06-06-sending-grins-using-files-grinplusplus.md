@@ -15,19 +15,19 @@ Today, we're going to learn how to send Grins via Files... files?! yes, files!
 
 The first thing that we're going to do is to click on the Send button to open the Sending screen, then we're going to type the amount, in this case 8.1 grins, like this:
 
-![Amount](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile001.png)
+![Amount](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile001.PNG)
 
 After filling the amount field, click on **"Save Tx"** and you will be asked to confirm your password:
 
-![Password](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile002.png)
+![Password](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile002.PNG)
 
 A Save As dialog is prompted to save the file:
 
-![Save As](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile003.png)
+![Save As](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile003.PNG)
 
 The ongoing transaction is now displayed like this:
 
-![Sending](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile005.png)
+![Sending](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureViaFile005.PNG)
 
 This file should be sent to the receiver. This is the coolest step because this file can be [encrypted](https://github.com/coleifer/beefish) and securely shared using, for instance, [OnionShare](https://onionshare.org/).
 
