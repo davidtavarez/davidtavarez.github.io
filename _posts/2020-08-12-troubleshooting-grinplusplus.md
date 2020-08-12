@@ -15,9 +15,8 @@ But life isn't perfect 😞; sometimes, some few users face some small tiny issu
 
 ## Node isn't installed
 
-![Node isn't installed](./_images/posts/NodeIsntInstalled.png)
+![Node isn't installed](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NodeIsntInstalled.png)
 
 Well, this can be easly fixed by making sure our Antivirus is not deleting neither putting into quarantine the Backend: **GrinNode.exe**. In order to confirm that, we need to make sure the file named as **GrinNode.exe** is located inside the `bin` folder at `C:\Users\admin\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\` as it's showed in the next picture:
 
-![bin](./_images/posts/GrinNodeBin.png)
-
+![bin](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/GrinNodeBin.png)
