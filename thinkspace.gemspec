@@ -19,4 +19,5 @@ Gem::Specification.new do |spec|
 	spec.add_development_dependency "bourbon", "~> 7.0.0"
 	spec.add_development_dependency "bundler", "~> 2.1.4"
 	spec.add_development_dependency "rake", "~> 13.0.1"
+	spec.add_development_dependency "html-proofer", "~> 3.15.3"
 end
