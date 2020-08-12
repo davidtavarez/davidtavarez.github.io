@@ -17,8 +17,8 @@ But life isn't perfect 😞; sometimes, some few users face some small tiny issu
 
 ![Node isn't installed](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NodeIsntInstalled.png)
 
-Well, this can be easly fixed by making sure our Antivirus is not deleting neither putting into quarantine the Backend: **GrinNode.exe**. In order to confirm that, we need to make sure the file named as **GrinNode.exe** is located inside the `bin` folder at `C:\Users\admin\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\` as it's showed in the next picture:
+Well, this can be easly fixed by making sure our Antivirus is not deleting neither putting into quarantine the Backend: **GrinNode.exe**. In order to confirm that, we need to make sure that the file named as **GrinNode.exe** is located inside the `bin` folder at `C:\Users\[USERNAME]\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\` as it's showed in the next picture:
 
 ![bin](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/GrinNodeBin.png)
 
-If the **GrinNode.exe** file is actually there and still you're having this problem, you shouldn't because the bundle should include all the dependcies, please, help us to solve this by opening an issue at the [Grin++ repository at GitHub](https://github.com/GrinPlusPlus/GrinPlusPlus/issues/new).
+If the **GrinNode.exe** file is actually there and you're still having this problem, you shouldn't because the bundle should include all the dependcies, please, help us solve this by opening an issue at the [Grin++ repository on GitHub](https://github.com/GrinPlusPlus/GrinPlusPlus/issues/new).
