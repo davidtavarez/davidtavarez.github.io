@@ -28,7 +28,6 @@ If the **GrinNode.exe** file is actually there and you're still having this prob
 
 This is reallz uncommon, but it could happen. The first thing we're gonna do is to open a Command Prompt and `cd` into the `C:\Users\[USERNAME]\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\bin\` and then run `dir GrinNode.exe` like this:
 
-
 ![dir](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/BackendPresent.png)
 
 Now we just type `GrinNode.exe` and hit the Enter key, after a few seconds we should see something like this:
@@ -40,3 +39,9 @@ If the previous step fails, we should see a message with more information about 
 When the issue is fixed, you should see something like this the next time you open Grin++:
 
 ![Running](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NodeIsRunning.png)
+
+## The Node process is not running. This is unusual, but don't worry, you just need to restart the wallet.
+
+![Restart Wallet](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureNodeStopped.png)
+
+Wow! this sould never happen, it means the Backend suddenly stopped, please let us know [opening an issue](https://github.com/GrinPlusPlus/GrinPlusPlus/issues/new) or joining the [Grin++ Telegram Channel](https://t.me/GrinPP).
