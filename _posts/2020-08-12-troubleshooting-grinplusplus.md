@@ -26,7 +26,7 @@ If the **GrinNode.exe** file is actually there and you're still having this prob
 
 ## Node isn't running
 
-This is reallz uncommon, but it could happen. The first thing we're gonna do is to open a Command Prompt and `cd` into the `C:\Users\[USERNAME]\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\bin\` and then run `dir GrinNode.exe` like this:
+This is really uncommon, but it could happen. The first thing we're gonna do is to open a Command Prompt and `cd` into the `C:\Users\[USERNAME]\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\bin\` and then run `dir GrinNode.exe` like this:
 
 ![dir](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/BackendPresent.png)
 
@@ -34,7 +34,7 @@ Now we just type `GrinNode.exe` and hit the Enter key, after a few seconds we sh
 
 ![Running](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/BackendRunning.png)
 
-If the previous step fails, we should see a message with more information about the issue, feel free to [Join the Grin++ Telegram Channel](https://t.me/GrinPP) and ask for help from there, some others user may have faced the same issue as you.
+If the previous step fails, we should see a message with more information about the issue, feel free to [Join the Grin++ Telegram Channel](https://t.me/GrinPP) and ask for help from there, some others users may have faced the same issue as you.
 
 When the issue is fixed, you should see something like this the next time you open Grin++:
 
