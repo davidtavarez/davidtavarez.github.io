@@ -44,4 +44,4 @@ When the issue is fixed, you should see something like this the next time you op
 
 ![Restart Wallet](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureNodeStopped.png)
 
-Wow! this sould never happen, it means the Backend suddenly stopped, please let us know [opening an issue](https://github.com/GrinPlusPlus/GrinPlusPlus/issues/new) or joining the [Grin++ Telegram Channel](https://t.me/GrinPP).
+Wow! this should have never happened, it means the Backend suddenly stopped, please let us know [opening an issue](https://github.com/GrinPlusPlus/GrinPlusPlus/issues/new) or joining the [Grin++ Telegram Channel](https://t.me/GrinPP).
