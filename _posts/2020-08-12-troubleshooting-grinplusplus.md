@@ -60,3 +60,5 @@ If the solution above doesn't work you can try this. Close Grin++, go to `C:\Use
 ![Backend Folders](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NodeActions.png)
 
 Now open Grin++ again. After a while you will have the chain synced again.
+
+![Syncing Headers](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/SyncingHeaders.png)
