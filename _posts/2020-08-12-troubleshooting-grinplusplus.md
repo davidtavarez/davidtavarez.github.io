@@ -11,8 +11,6 @@ Grin++ is a, I'm sorry, the best [Grin](http://grin.mw/) Wallet. Grin++ runs on 
 
 But life isn't perfect 😞; sometimes, some few users face some small tiny issues, and today I will explain to you how to fix these tiny issues 😁👍
 
-# Windows.
-
 ## Node isn't installed
 
 ![Node isn't installed](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NodeIsntInstalled.png)
@@ -22,7 +20,6 @@ Well, this can be easly fixed by making sure our Antivirus is not deleting neith
 ![bin](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/GrinNodeBin.png)
 
 If the **GrinNode.exe** file is actually there and you're still having this problem, you shouldn't because the bundle should include all the dependcies, please, help us solve this by opening an issue at the [Grin++ repository on GitHub](https://github.com/GrinPlusPlus/GrinPlusPlus/issues/new).
-
 
 ## Node isn't running
 
@@ -45,3 +42,21 @@ When the issue is fixed, you should see something like this the next time you op
 ![Restart Wallet](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/CaptureNodeStopped.png)
 
 Wow! this should have never happened, it means the Backend suddenly stopped, please let us know [opening an issue](https://github.com/GrinPlusPlus/GrinPlusPlus/issues/new) or joining the [Grin++ Telegram Channel](https://t.me/GrinPP).
+
+## Stuck on "Waiting for Peers"
+
+Sometimes this could happen after upgrading Grin++, you could get stuck on "Waiting for Peers" and you will see something like this:
+
+![Waiting for Peers](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/WaitingForPeers.png)
+
+In order to fix this, you could try 2 things. The first thing you could try is to `(Re)Sync` the chain by clicking on `Settings` and the on Resync below `Node Actions`:
+
+![Settings](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/WalletSettings.png)
+
+![Node Actions](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NodeActions.png)
+
+If the solution above doesn't work you can try this. Close Grin++, go to `C:\Users\[USERNAME]\.GrinPP\MAINNET`, delete the folder called `NODE`:
+
+![Backend Folders](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NodeActions.png)
+
+Now open Grin++ again. After a while you will have the chain synced again.
