@@ -57,7 +57,7 @@ In order to fix this, you could try 2 things. The first thing you could try is t
 
 If the solution above doesn't work you can try this. Close Grin++, go to `C:\Users\[USERNAME]\.GrinPP\MAINNET`, delete the folder called `NODE`:
 
-![Backend Folders](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NodeActions.png)
+![Backend Folders](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/BackendFolders.png)
 
 Now open Grin++ again. After a while you will have the chain synced again.
 
