@@ -93,3 +93,13 @@ $ dir
 So, the `tor` folder is not present, now we can reinstall Grin++ by downloading the latest version, then we open Grin++ and voilà! we now have our address:
 
 ![tor.exe is running](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/TorRunning.png)
+
+## The Address is not green! :(
+
+OK... are you living in China, Iran or Venezuela? or any other country with heavy **internet censorship**? Are you behind of a scrict firewall? if the answer is YES, please refer to this post where I explain [how to bypass censorship](https://davidtavarez.github.io/2020/bypass-internet-censorship-and-filtering-grinplusplus/), if not, keep reading.
+
+This issue happens when Tor is not able to establish connection, the first thing you should do is to check if your [Firewall is not blocking tor connections](https://www.dummies.com/computers/pcs/computer-security/how-to-allow-firewall-exceptions-on-your-windows-10-laptop/); after this, your address you be green.
+
+## Is your issue not listed here?
+
+If your issue is not listed here, please feel of [Join the Grin++ Telegram Channel](https://t.me/GrinPP) and ask for help.
