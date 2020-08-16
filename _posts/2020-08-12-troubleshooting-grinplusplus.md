@@ -67,13 +67,13 @@ Now open Grin++ again. After a while you will have the chain synced again.
 
 ![No Address](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NoAddress.png)
 
-This is a pretty annoying issue I know, but at the same time it's pretty easy to solve. Some people likes to run [Niffler Wallet](https://github.com/grinfans/Niffler) or [grin-wallet](https://github.com/mimblewimble/grin-wallet) a the same time as Grin++, without going deep into this, I will recommend not to do it, at least for now, make sure no other grin wallet is running before running Grin++. If you are facing the issue still, please, continue reading this post.
+This is a pretty annoying issue, I know, but at the same time it's pretty easy to solve. Some people like to run [Niffler Wallet](https://github.com/grinfans/Niffler) or [grin-wallet](https://github.com/mimblewimble/grin-wallet) at the same time as Grin++, without going deep into this, I will recommend not to do it, at least for now, make sure no other grin wallet is running before running Grin++. If you are still facing the issue, please, continue reading this post.
 
 Let's see if `tor.exe` is running by ejecuting the `tasklist` command:
 
 ![tor.exe is not running](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NoTorRunning.png)
 
-As we can notice `tor.exe` is not running. My first suggesting is double check if the `tor` folder is in the same directory as `GrinNode.exe` (at `C:\Users\[USERNAME]\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\`) and `tor.exe` is present at the `tor` folder. Open the `Command Prompt` and 
+As we can notice `tor.exe` is not running. My first suggestion is double check if the `tor` folder is in the same directory as `GrinNode.exe` (at `C:\Users\[USERNAME]\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\`) and `tor.exe` is present in the `tor` folder. Open the `Command Prompt` and 
 
 ```
 $ cd C:\Users\[USERNAME]\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\bin\tor
@@ -98,8 +98,8 @@ So, the `tor` folder is not present, now we can reinstall Grin++ by downloading 
 
 OK... are you living in China, Iran or Venezuela? or any other country with heavy **internet censorship**? Are you behind of a scrict firewall? if the answer is YES, please refer to this post where I explain [how to bypass censorship](https://davidtavarez.github.io/2020/bypass-internet-censorship-and-filtering-grinplusplus/), if not, keep reading.
 
-This issue happens when Tor is not able to establish connection, the first thing you should do is to check if your [Firewall is not blocking tor connections](https://www.dummies.com/computers/pcs/computer-security/how-to-allow-firewall-exceptions-on-your-windows-10-laptop/); after this, your address you be green.
+This issue happens when Tor is not able to establish connection, the first thing you should do is to check if your [Firewall is not blocking tor connections](https://www.dummies.com/computers/pcs/computer-security/how-to-allow-firewall-exceptions-on-your-windows-10-laptop/); after this, your address should be green.
 
 ## Is your issue not listed here?
 
-If your issue is not listed here, please feel of [Join the Grin++ Telegram Channel](https://t.me/GrinPP) and ask for help.
+If your issue is not listed here, please feel free to [Join the Grin++ Telegram Channel](https://t.me/GrinPP) and ask for help.
