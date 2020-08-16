@@ -62,3 +62,34 @@ If the solution above doesn't work you can try this. Close Grin++, go to `C:\Use
 Now open Grin++ again. After a while you will have the chain synced again.
 
 ![Syncing Headers](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/SyncingHeaders.png)
+
+## The ~~Grin~~ Slatepack address is not being displayed
+
+![No Address](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NoAddress.png)
+
+This is a pretty annoying issue I know, but at the same time it's pretty easy to solve. Some people likes to run [Niffler Wallet](https://github.com/grinfans/Niffler) or [grin-wallet](https://github.com/mimblewimble/grin-wallet) a the same time as Grin++, without going deep into this, I will recommend not to do it, at least for now, make sure no other grin wallet is running before running Grin++. If you are facing the issue still, please, continue reading this post.
+
+Let's see if `tor.exe` is running by ejecuting the `tasklist` command:
+
+![tor.exe is not running](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/NoTorRunning.png)
+
+As we can notice `tor.exe` is not running. My first suggesting is double check if the `tor` folder is in the same directory as `GrinNode.exe` (at `C:\Users\[USERNAME]\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\`) and `tor.exe` is present at the `tor` folder. Open the `Command Prompt` and 
+
+```
+$ cd C:\Users\[USERNAME]\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\bin\tor
+$ dir                                                                                                 
+ Volume in drive C is OS                                                                              
+ Volume Serial Number is XXXX-XXXX                                                                    
+                                                                                                      
+ Directory of C:\Users\[USERNAME]\AppData\Local\Programs\GrinPlusPlus\resources\app.asar.unpacked\bin\tor  
+                                                                                                      
+16/08/2020  14:36    <DIR>          .                                                                 
+16/08/2020  14:36    <DIR>          ..                                                                
+16/08/2020  14:36    <DIR>          data3423                                                          
+               0 File(s)              0 bytes                                                         
+               3 Dir(s)  90.510.950.400 bytes free
+```
+
+So, the `tor` folder is not present, now we can reinstall Grin++ by downloading the latest version, then we open Grin++ and voilà! we now have our address:
+
+![tor.exe is running](https://raw.githubusercontent.com/davidtavarez/davidtavarez.github.io/master/_images/posts/TorRunning.png)
