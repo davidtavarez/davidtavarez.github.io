@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GRIN ツ gathering in Warszawa - July 2022"
-date: 2022-07-25 23:59:00 -0400
+date: 2022-07-24 23:59:00 -0400
 keywords: "grin++, grin, poland, warszawa"
 comments: true
 description: "Notes regarding the GRIN gathering in Warszawa"
